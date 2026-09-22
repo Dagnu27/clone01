@@ -1,18 +1,17 @@
 
 import './App.css'
+import Home from './pages/Home/Home'
 
 function App() {
   
 
   return (
-    <>
-    <div>
-      <h1>
-        run away bro
-      </h1>
+
+    <div  className='App'>
+            <Home/>
     </div>
         
-    </>
+
   )
 }
 
