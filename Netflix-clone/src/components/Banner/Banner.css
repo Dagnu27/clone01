@@ -1,0 +1,85 @@
+.banner {
+  height: 80vh;
+  color: white;
+  object-fit: contain;
+  position: relative;
+  align-items: center;
+  display: flex;
+  /* height: 100px; */
+}
+
+.banner__contents {
+  /* margin-left: 60px;
+  padding-top: 220px;
+  height: 190px; */
+  margin-left: 60px;
+  max-width: 450px;
+}
+
+.banner__title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-bottom: 0.5rem;
+}
+
+.banner__buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.banner__button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 0.6rem 2.2rem;
+  background-color: rgba(51, 51, 51, 0.7);
+  transition: all 0.2s ease;
+}
+
+/* White background style for Play button */
+.banner__button.play {
+  color: #000;
+  background-color: #fff;
+}
+
+.banner__button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+}
+
+.play {
+
+  color: #000;
+
+  background-color: #fff;
+
+}
+
+
+
+.banner__description {
+  width: 100%;
+  max-width: 450px;
+  line-height: 1.4;
+  padding-top: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.banner__fadeBottom {
+  position:relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
